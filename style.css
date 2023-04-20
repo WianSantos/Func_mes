@@ -1,6 +1,7 @@
-body{
-    background: no-repeat center/80% url(./src/images/Number-Guessing-Game-using-JavaScript-3.webp);
-    background-size: cover;
+body {
+  background: no-repeat center/80%
+    url(./src/images/Number-Guessing-Game-using-JavaScript-3.webp);
+  background-size: cover;
 }
 .container {
   display: grid;
@@ -15,7 +16,6 @@ body{
     "Colab Colab Week Week"
     "Colab Colab Week Week"
     "Footer Footer Footer Footer";
-
 }
 
 .Calendar {
@@ -29,7 +29,6 @@ body{
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 .Week {
@@ -47,13 +46,13 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba( 255, 255, 255, 0.2 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 18px );
-  -webkit-backdrop-filter: blur( 18px );
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  font-family: 'Carter One', cursive;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-family: "Carter One", cursive;
   font-size: 1.5rem;
 }
 
@@ -84,138 +83,134 @@ body,
 }
 */
 
-
 #card-container {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-  }
-  
-  #card {
-    position: relative;
-    background-color: white;
-    padding: 20px;
-    width: 50%;
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-  #close-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-
-
-  .btn-close {
-     --bs-btn-close-white-filter: none !important;
-  }
-  #card-container-semana {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-  }
-  
-  #card {
-    position: relative;
-    background-color: white;
-    padding: 20px;
-    width: 50%;
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-  #close-btn-semana {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-
-
-  .btn-close {
-     --bs-btn-close-white-filter: none !important;
-  }
-
-
-
-
-
-.imagemTrocada{
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    border-radius: 50%;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
 }
 
-.glass{
-position: absolute;
-align-items: center;
-background: rgba( 255, 255, 255, 0.2 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 18px );
--webkit-backdrop-filter: blur( 18px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-color: aliceblue;
+#card {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  width: 50%;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
-.titulo{
-    margin-top: 20px;
-    align-items: center;
-    font-family: 'Carter One', cursive;
-    font-size: xx-large;
-    color: black;
- }
-
- 
-@media (min-width: 1900px){
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1700px!important;
-    }
-    .imagemTrocada{
-        max-height: 1098px!important;
-    }
+#close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
-  
+
+.btn-close {
+  --bs-btn-close-white-filter: none !important;
+}
+#card-container-semana {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+#card {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  width: 50%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#close-btn-semana {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.btn-close {
+  --bs-btn-close-white-filter: none !important;
+}
+
+.imagemTrocada {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.glass {
+  position: absolute;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: aliceblue;
+}
+
+.titulo {
+  margin-top: 20px;
+  align-items: center;
+  font-family: "Carter One", cursive;
+  font-size: xx-large;
+  color: black;
+}
+
+@media (min-width: 1900px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1700px !important;
+  }
+  .imagemTrocada {
+    max-height: 1098px !important;
+  }
+}
 
 /*calendario*/
-body{
+body {
   background-color: #333;
 }
-.wraper{
+.wraper {
   max-width: 760px;
-  margin:10px auto;
-  padding:20px;
+  margin: 10px auto;
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
 }
-.days-week{
+.days-week {
   display: flex;
   width: 100%;
   justify-content: space-around;
 }
-.number-days{
+.number-days {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
 }
 
-.days-week span{
-  color: #F86078;
-  border-bottom:  1px solid #F86078;
+.days-week span {
+  color: #f86078;
+  border-bottom: 1px solid #f86078;
   width: 100%;
   display: flex;
   align-items: center;
@@ -223,7 +218,7 @@ body{
   font-size: 3rem;
 }
 
-.number-days span{
+.number-days span {
   display: inline-block;
   width: 14.2%;
   margin: 8px 0;
@@ -232,21 +227,64 @@ body{
   align-items: center;
   justify-content: center;
 }
-.mes-anterior{
-opacity: 0.5;
+.mes-anterior {
+  opacity: 0.5;
 }
 
-.day-selected{
+.day-selected {
   background-color: #fcb4bf;
 }
 
-.day-selected-ferias{
-  background-color: #F86078;
+.day-selected-ferias {
+  background-color: #f86078;
 }
 /*fim-calendario*/
 
 /*week*/
-.Week{
-
+.Week {
   margin: 20px;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg .tg-pb0m {
+  border-color: inherit;
+  text-align: center;
+  vertical-align: bottom;
+}
+.tg .tg-c3ow .teste{
+  border-color: inherit;
+  text-align: center;
+  vertical-align: top;
+}
+
+
+.teste{
+  background:rgba(31, 38, 135, 0.37);
+  text-align: center;
+  vertical-align: top;
+
 }

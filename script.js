@@ -226,11 +226,16 @@ function atualizarSemana(){
  console.log(semanaCheiaBe)
 */
 let checkedValue = document.querySelector('.semanaCheiaBe:checked').value;
-let SemanaPintada = document.querySelector('.SCB')
+let SemanaPintada = document.querySelectorAll('.SCB')
 console.log(SemanaPintada)
 if(checkedValue == 'semanaCheiaBe'){
 
   //EU NÃO CONSIGO FAZER ESSE BACKGROUND-COLOR FUNCIONAR AJUDA AI DEUS
-  SemanaPintada.innerHTML+=`<td class="tg-c3ow SCB"'>CLIA</td>`
+  SemanaPintada[2].innerHTML+=`<td class="tg-c3ow SCB teste"'>CLIA</td>`
+  SemanaPintada[2].setAttribute('class','teste')
+  SemanaPintada[0].innerHTML+=`<td class="tg-c3ow SCB teste"'>CLIA</td>`
+  SemanaPintada[1].innerHTML+=`<td class="tg-c3ow SCB teste"'>CLIA</td>`
+  SemanaPintada[3].innerHTML+=`<td class="tg-c3ow SCB teste"'>CLIA</td>`
+  SemanaPintada[4].innerHTML+=`<td class="tg-c3ow SCB teste"'>CLIA</td>`
 }
 }
