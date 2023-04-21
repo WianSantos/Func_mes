@@ -1,7 +1,11 @@
 body {
-  background: no-repeat center/80%
+  /*background: no-repeat center/80%
     url(./src/images/Number-Guessing-Game-using-JavaScript-3.webp);
-  background-size: cover;
+  */
+  background: rgb(255,253,234);
+  background: radial-gradient(circle, rgba(255,253,234,1) 0%, rgba(38,125,142,0.5) 97%);
+    background-size: cover;
+
 }
 .container {
   display: grid;
@@ -20,9 +24,16 @@ body {
 
 .Calendar {
   grid-area: Calendar;
+    margin: 20px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+  
 }
 
 .Colab {
+  margin-right: 20%;
+  margin-top: 5%;
   grid-area: Colab;
   overflow: hidden;
   display: flex;
@@ -63,25 +74,6 @@ body,
   margin: 0;
 }
 
-/* For presentation only, no need to copy the code below */
-/*
-.container * {
-  border: 1px solid red;
-  position: relative;
-}
-
-.container *:after {
-  content: attr(class);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-}
-*/
 
 #card-container {
   display: none;
@@ -109,10 +101,47 @@ body,
   top: 10px;
   right: 10px;
 }
+/*ferias*/
+#card-container-ferias {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+#card-ferias {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.90);
+  padding: 10px 40px 40px 0px;
+  width: 50%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#close-btn-ferias {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* ferias*/
+
+
 
 .btn-close {
   --bs-btn-close-white-filter: none !important;
 }
+
 #card-container-semana {
   display: none;
   position: fixed;
@@ -125,13 +154,25 @@ body,
   z-index: 9999;
 }
 
-#card {
+
+#card-semana {
   position: relative;
-  background-color: white;
-  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.90);
+  padding: 10px 40px 40px 0px;
   width: 50%;
-  max-width: 500px;
+  max-width: 800px;
   margin: 0 auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.finalizarEscolha{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #close-btn-semana {
@@ -145,9 +186,8 @@ body,
 }
 
 .imagemTrocada {
-  margin: 0;
-  height: 100%;
-  width: 100%;
+
+  height: 90%;
   z-index: -1;
   border-radius: 50%;
 }
@@ -187,9 +227,6 @@ body,
 }
 
 /*calendario*/
-body {
-  background-color: #333;
-}
 .wraper {
   max-width: 760px;
   margin: 10px auto;
@@ -226,6 +263,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 20px;
 }
 .mes-anterior {
   opacity: 0.5;
@@ -233,16 +271,40 @@ body {
 
 .day-selected {
   background-color: #fcb4bf;
+  color: #FFF!important;
+  font-weight: bold;
 }
 
 .day-selected-ferias {
   background-color: #f86078;
+  color: #FFF!important;
+  font-weight: bold;
 }
 /*fim-calendario*/
 
 /*week*/
 .Week {
   margin: 20px;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+}
+.diasDaSemana{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  gap: 10px;
+}
+.escolhas > h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.escolhas > h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
 }
 
 .tg {
@@ -250,20 +312,23 @@ body {
   border-spacing: 0;
 }
 .tg td {
+  /*
   border-color: black;
   border-style: solid;
   border-width: 1px;
-  font-family: Arial, sans-serif;
+  */
+  background-color: rgba(255,253,234,1);
+  color:blac;
+  font-family: "Carter One", cursive;
   font-size: 20px;
   overflow: hidden;
-  padding: 10px 5px;
   word-break: normal;
+  text-align: center;
 }
 .tg th {
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
-  font-family: Arial, sans-serif;
+  background-color: rgba(255,253,234,1);
+  color:black;
+  font-family: "Carter One", cursive;
   font-size: 14px;
   font-weight: normal;
   overflow: hidden;
@@ -275,16 +340,59 @@ body {
   text-align: center;
   vertical-align: bottom;
 }
-.tg .tg-c3ow .teste{
+.tg .tg-c3ow .home{
   border-color: inherit;
   text-align: center;
   vertical-align: top;
+  background-color: rgba(255,253,234,1);
+  color:black;
 }
 
 
-.teste{
-  background:rgba(31, 38, 135, 0.37);
+.home{
+  background: #ec5595 !important;;
   text-align: center;
   vertical-align: top;
 
+}
+.troca{
+  background:none;
+  text-align: center;
+  vertical-align: top;
+  background-color: rgba(255,253,234,1);
+  color:black;
+}
+
+@media (max-width: 600px)
+{
+  .facet_sidebar
+   {
+    display: none;
+   }
+}
+
+
+.borda{
+  background-color: rgba(255,253,234,1);
+  color:black;
+}
+.borda-top-esquerda{
+  border-top-left-radius: 10px!important;
+}
+.borda-top-direita{
+  border-top-right-radius: 10px!important;
+}
+.borda-bottom-esquerda{
+  border-bottom-left-radius: 10px!important;
+}
+
+
+
+tr:last-child td:first-child { border-bottom-left-radius: 10px!important; }
+tr:last-child td:last-child { border-bottom-right-radius: 10px!important; }
+
+.botoesFooter{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
