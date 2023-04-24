@@ -152,7 +152,7 @@ function atualizarInfo() {
     console.log("opa");
   }
 }
-
+/*
 //inicio calendario
 const date = new Date();
 const dia = date.getDate();
@@ -176,7 +176,7 @@ for (i = 1; i <= 31; i++) {
     }
   }
 }
-
+*/
 //fim-calendario
 
 //week
