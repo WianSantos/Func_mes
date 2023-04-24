@@ -94,6 +94,34 @@ function atualizarInfo() {
         equipe.innerText = "de Sistemas";
         variavelNome.innerText = valorNovo;
         imagem.src = `./src/images/${valorNovo}.jpg`;
+      } else if (valorNovo === "Belisa") {
+        equipe.innerText = "Administrativa";
+        variavelNome.innerText = valorNovo;
+        imagem.src = `./src/images/${valorNovo}.jpg`;
+      } else if (valorNovo === "Bruno") {
+        equipe.innerText = "de Sistemas";
+        variavelNome.innerText = valorNovo;
+        imagem.src = `./src/images/${valorNovo}.jpg`;
+      } else if (valorNovo === "Gabriel") {
+        equipe.innerText = "de Sistemas";
+        variavelNome.innerText = valorNovo;
+        imagem.src = `./src/images/${valorNovo}.jpg`;
+      } else if (valorNovo === "Graziela") {
+        equipe.innerText = "de Governança";
+        variavelNome.innerText = valorNovo;
+        imagem.src = `./src/images/${valorNovo}.jpg`;
+      } else if (valorNovo === "Iuri") {
+        equipe.innerText = "de Sistemas";
+        variavelNome.innerText = valorNovo;
+        imagem.src = `./src/images/${valorNovo}.jpg`;
+      } else if (valorNovo === "Larissa") {
+        equipe.innerText = "de Governança";
+        variavelNome.innerText = valorNovo;
+        imagem.src = `./src/images/${valorNovo}.jpg`;
+      } else if (valorNovo === "Vini") {
+        equipe.innerText = "de Sistemas";
+        variavelNome.innerText = valorNovo;
+        imagem.src = `./src/images/${valorNovo}.jpg`;
       }
       //Finalização do if de mudança de nome
     } else {
@@ -112,6 +140,34 @@ function atualizarInfo() {
         variavelNome.innerText = valorNovo;
         imagem.src = `./src/images/${valorNovo}.jpg`;
       } else if (valorNovo === "Wian") {
+        equipe.innerText = "de Sistemas";
+        variavelNome.innerText = valorNovo;
+        imagem.src = `./src/images/${valorNovo}.jpg`;
+      } else if (valorNovo === "Belisa") {
+        equipe.innerText = "Administrativa";
+        variavelNome.innerText = valorNovo;
+        imagem.src = `./src/images/${valorNovo}.jpg`;
+      } else if (valorNovo === "Bruno") {
+        equipe.innerText = "de Sistemas";
+        variavelNome.innerText = valorNovo;
+        imagem.src = `./src/images/${valorNovo}.jpg`;
+      } else if (valorNovo === "Gabriel") {
+        equipe.innerText = "de Sistemas";
+        variavelNome.innerText = valorNovo;
+        imagem.src = `./src/images/${valorNovo}.jpg`;
+      } else if (valorNovo === "Graziela") {
+        equipe.innerText = "de Governança";
+        variavelNome.innerText = valorNovo;
+        imagem.src = `./src/images/${valorNovo}.jpg`;
+      } else if (valorNovo === "Iuri") {
+        equipe.innerText = "de Sistemas";
+        variavelNome.innerText = valorNovo;
+        imagem.src = `./src/images/${valorNovo}.jpg`;
+      } else if (valorNovo === "Larissa") {
+        equipe.innerText = "de Governança";
+        variavelNome.innerText = valorNovo;
+        imagem.src = `./src/images/${valorNovo}.jpg`;
+      } else if (valorNovo === "Vini") {
         equipe.innerText = "de Sistemas";
         variavelNome.innerText = valorNovo;
         imagem.src = `./src/images/${valorNovo}.jpg`;
@@ -145,6 +201,34 @@ function atualizarInfo() {
     variavelNome.innerText = valorNovo;
     imagem.src = `./src/images/${valorNovo}.jpg`;
   } else if (valorNovo === "Wian") {
+    equipe.innerText = "de Sistemas";
+    variavelNome.innerText = valorNovo;
+    imagem.src = `./src/images/${valorNovo}.jpg`;
+  } else if (valorNovo === "Belisa") {
+    equipe.innerText = "Administrativa";
+    variavelNome.innerText = valorNovo;
+    imagem.src = `./src/images/${valorNovo}.jpg`;
+  } else if (valorNovo === "Bruno") {
+    equipe.innerText = "de Sistemas";
+    variavelNome.innerText = valorNovo;
+    imagem.src = `./src/images/${valorNovo}.jpg`;
+  } else if (valorNovo === "Gabriel") {
+    equipe.innerText = "de Sistemas";
+    variavelNome.innerText = valorNovo;
+    imagem.src = `./src/images/${valorNovo}.jpg`;
+  } else if (valorNovo === "Graziela") {
+    equipe.innerText = "de Governança";
+    variavelNome.innerText = valorNovo;
+    imagem.src = `./src/images/${valorNovo}.jpg`;
+  } else if (valorNovo === "Iuri") {
+    equipe.innerText = "de Sistemas";
+    variavelNome.innerText = valorNovo;
+    imagem.src = `./src/images/${valorNovo}.jpg`;
+  } else if (valorNovo === "Larissa") {
+    equipe.innerText = "de Governança";
+    variavelNome.innerText = valorNovo;
+    imagem.src = `./src/images/${valorNovo}.jpg`;
+  } else if (valorNovo === "Vini") {
     equipe.innerText = "de Sistemas";
     variavelNome.innerText = valorNovo;
     imagem.src = `./src/images/${valorNovo}.jpg`;
@@ -205,3 +289,5 @@ showCardBtnFerias.addEventListener("click", function () {
 closeBtnFerias.addEventListener("click", function () {
   cardContainerFerias.style.display = "none";
 });
+
+
