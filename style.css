@@ -30,6 +30,10 @@ body {
     justify-content: center;
   
 }
+.logos{
+  width: 400px;
+  height: 150px;
+}
 
 .Colab {
   margin-right: 20%;
@@ -280,6 +284,12 @@ body,
   color: #FFF!important;
   font-weight: bold;
 }
+
+.fraseFerias{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
 /*fim-calendario*/
 
 /*week*/
@@ -312,11 +322,11 @@ body,
   border-spacing: 0;
 }
 .tg td {
-  /*
+  
   border-color: black;
   border-style: solid;
   border-width: 1px;
-  */
+  
   background-color: rgba(255,253,234,1);
   color:blac;
   font-family: "Carter One", cursive;
@@ -326,6 +336,10 @@ body,
   text-align: center;
 }
 .tg th {
+    
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
   background-color: rgba(255,253,234,1);
   color:black;
   font-family: "Carter One", cursive;
@@ -375,6 +389,7 @@ body,
 .borda{
   background-color: rgba(255,253,234,1);
   color:black;
+    
 }
 .borda-top-esquerda{
   border-top-left-radius: 10px!important;
@@ -395,4 +410,14 @@ tr:last-child td:last-child { border-bottom-right-radius: 10px!important; }
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.ipa,.home{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
