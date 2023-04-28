@@ -43,7 +43,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
+
 }
 
 .Week {
@@ -194,6 +194,8 @@ body,
   height: 90%;
   z-index: -1;
   border-radius: 50%;
+  max-width: 650px;
+  max-height: 900px;
 }
 
 .glass {
@@ -320,6 +322,7 @@ body,
 .tg {
   border-collapse: collapse;
   border-spacing: 0;
+  margin-bottom: 40px;
 }
 .tg td {
   
@@ -330,7 +333,7 @@ body,
   background-color: rgba(255,253,234,1);
   color:blac;
   font-family: "Carter One", cursive;
-  font-size: 20px;
+  font-size: 28px;
   overflow: hidden;
   word-break: normal;
   text-align: center;
@@ -343,10 +346,10 @@ body,
   background-color: rgba(255,253,234,1);
   color:black;
   font-family: "Carter One", cursive;
-  font-size: 14px;
+  font-size: 28px;
   font-weight: normal;
   overflow: hidden;
-  padding: 10px 5px;
+  padding: 10px 15px;
   word-break: normal;
 }
 .tg .tg-pb0m {
