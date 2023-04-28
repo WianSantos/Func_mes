@@ -1,11 +1,142 @@
-//inicio calendario
 const date = new Date();
 const dia = date.getDate();
 
+//<option value="Belisa">Belisa</option>
+//<option value="Bruno">Bruno</option>
+//<option value="Erick">Erick</option>
+//<option value="Gabriel">Gabriel</option>
+//<option value="Graziela">Graziela</option>
+//<option value="Iuri">Iuri</option>
+//<option value="Justinho">Justinho</option>
+//<option value="Larissa">Larissa</option>
+//<option value="Luciana">Luciana</option>
+//<option value="Vini">Vini</option>
+//<option value="Wian">Wian</option>
+
+let fraseFeriasTrocada = document.querySelectorAll('.fraseFeriasTrocada')
+
+let inicioFeriasBruno = new Date("May 15")
+let finalFeriasBruno = new Date("May 30")
+
+//let inicioFeriasBelisa = new Date("April 05")
+//let finalFeriasBelisa = new Date("April 30")
+
+//let inicioFeriasErick = new Date("January 05")
+//let finalFeriasErick = new Date("April 30")
+
+let inicioFeriasGabriel = new Date("July 03")
+let finalFeriasGabriel = new Date("July 17")
+
+let inicioFeriasGraziela = new Date("April 03")
+let finalFeriasGraziela = new Date("April 17")
+
+let inicioFeriasIuri = new Date("May 14")
+let finalFeriasIuri = new Date("May 28")
+
+//let inicioFeriasJustinho = new Date("April 05")
+//let finalFeriasJustinho = new Date("April 30")
+
+let inicioFeriasLarissa = new Date("May 15")
+let finalFeriasLarissa = new Date("May 30")
+
+let inicioFeriasLuciana = new Date("July 10")
+let finalFeriasLuciana = new Date("July 24")
+
+let inicioFeriasVini = new Date("November 27")
+let finalFeriasVini = new Date("December 12")
+
+//let inicioFeriasWian = new Date("April 05")
+//let finalFeriasWian = new Date("April 30")
+
+console.log(inicioFeriasBruno)
+console.log(inicioFeriasBruno.getDate())
+console.log(inicioFeriasBruno.getMonth())
+console.log(finalFeriasBruno)
+console.log(finalFeriasBruno.getDate())
+
+if(date.getMonth() == inicioFeriasBruno.getMonth()){
+
+  dataFeriasInicial = inicioFeriasBruno.getDate();
+  dataFeriasFinal = finalFeriasBruno.getDate();
+}else if(date.getMonth() == inicioFeriasGraziela.getMonth()){
+  dataFeriasInicial = inicioFeriasGraziela.getDate();
+  dataFeriasFinal = finalFeriasGraziela.getDate();
+}
+else if(date.getMonth() == inicioFeriasGabriel.getMonth()){
+  dataFeriasInicial = inicioFeriasGabriel.getDate();
+  dataFeriasFinal = finalFeriasGabriel.getDate();
+}
+else if(date.getMonth() == inicioFeriasIuri.getMonth()){
+  dataFeriasInicial = inicioFeriasIuri.getDate();
+  dataFeriasFinal = finalFeriasIuri.getDate();
+}
+else if(date.getMonth() == inicioFeriasLarissa.getMonth()){
+  dataFeriasInicial = inicioFeriasLarissa.getDate();
+  dataFeriasFinal = finalFeriasLarissa.getDate();
+}
+else if(date.getMonth() == inicioFeriasLuciana.getMonth()){
+  dataFeriasInicial = inicioFeriasLuciana.getDate();
+  dataFeriasFinal = finalFeriasLuciana.getDate();
+}
+else if(date.getMonth() == inicioFeriasVini.getMonth()){
+  dataFeriasInicial = inicioFeriasVini.getDate();
+  dataFeriasFinal = finalFeriasVini.getDate();
+}
+//else if(date.getMonth() == inicioFeriasGraziela.getMonth()){
+//  dataFeriasInicial = inicioFeriasGraziela.getDate();
+//  dataFeriasFinal = finalFeriasGraziela.getDate();
+//}
+//else if(date.getMonth() == inicioFeriasGraziela.getMonth()){
+//  dataFeriasInicial = inicioFeriasGraziela.getDate();
+//  dataFeriasFinal = finalFeriasGraziela.getDate();
+//}
+//else if(date.getMonth() == inicioFeriasGraziela.getMonth()){
+//  dataFeriasInicial = inicioFeriasGraziela.getDate();
+//  dataFeriasFinal = finalFeriasGraziela.getDate();
+//}else if(date.getMonth() == inicioFeriasGraziela.getMonth()){
+//  dataFeriasInicial = inicioFeriasGraziela.getDate();
+//  dataFeriasFinal = finalFeriasGraziela.getDate();}
+else{
+  console.log('Mes errado')
+  dataFeriasInicial = 0;
+  dataFeriasFinal = 0;
+}
+
+//parabens!
+if(date.getMonth() == 0){
+  fraseFeriasTrocada[0].innerHTML=''
+} else if (date.getMonth() == 1){
+  fraseFeriasTrocada[0].innerHTML=''
+} else if (date.getMonth() == 2){
+  fraseFeriasTrocada[0].innerHTML=''
+} else if (date.getMonth() == 3){
+  fraseFeriasTrocada[0].innerHTML='Grazi!'
+} else if (date.getMonth() == 4){
+  fraseFeriasTrocada[0].innerHTML='Bruno e Larissa!'
+} else if (date.getMonth() == 5){
+  fraseFeriasTrocada[0].innerHTML='Iuri!'
+} else if (date.getMonth() == 6){
+  fraseFeriasTrocada[0].innerHTML='Gabriel e Luciana!'
+} else if (date.getMonth() == 7){
+  fraseFeriasTrocada[0].innerHTML=''
+} else if (date.getMonth() == 8){
+  fraseFeriasTrocada[0].innerHTML=''
+} else if (date.getMonth() == 9){
+  fraseFeriasTrocada[0].innerHTML='Bruno!'
+} else if (date.getMonth() == 10){
+  fraseFeriasTrocada[0].innerHTML='Vini!'
+} else if (date.getMonth() == 11){
+  fraseFeriasTrocada[0].innerHTML='Vini e Gabriel'
+}
+
+
+
+//inicio calendario
+
+console.log(date.getMonth())
 console.log(dia);
 
-const dataFeriasInicial = 10;
-const dataFeriasFinal = 15;
+
 
 let el = document.querySelector(".number-days");
 for (i = 1; i <= 31; i++) {
@@ -23,20 +154,6 @@ for (i = 1; i <= 31; i++) {
 }
 
 
-// let diaInicialFerias = document.getElementById('dataInicialFerias')
-//     for(let d =1; d<=31;i++){
-//         let opcao = new Option;
-//         opcao.text=d
-//         opcao.val=d
-//         diaInicialFerias[d]= opcao
-//     }
-
-// var ddl = document.getElementById('mycontainer').getElementsByTagName("select")[0];
-// for (var i = 1; i <= 100; i++) {
-//     var theOption = new Option;
-//     theOption.text = i;
-//     theOption.value = i;
-//     ddl.options[i] = theOption;
 
 
 
