@@ -367,7 +367,7 @@ body,
 
 
 .home{
-  background: #ec5595 !important;;
+  background: #ec5595 !important;
   text-align: center;
   vertical-align: top;
 
@@ -423,4 +423,11 @@ tr:last-child td:last-child { border-bottom-right-radius: 10px!important; }
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+}
+
+.fraseFerias{
+  border-top: 1px solid #f86078;
+  color: #2b0314;
+  margin-top: 20px;
+  padding-top:20px;
 }
