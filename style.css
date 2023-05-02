@@ -253,11 +253,11 @@ body,
 
 .days-week span {
   color: #f86078;
-  border-bottom: 1px solid #f86078;
+
   width: 100%;
-  display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   font-size: 3rem;
 }
 

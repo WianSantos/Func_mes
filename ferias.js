@@ -1,17 +1,11 @@
 const date = new Date();
 const dia = date.getDate();
+let mes = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro']
 
-//<option value="Belisa">Belisa</option>
-//<option value="Bruno">Bruno</option>
-//<option value="Erick">Erick</option>
-//<option value="Gabriel">Gabriel</option>
-//<option value="Graziela">Graziela</option>
-//<option value="Iuri">Iuri</option>
-//<option value="Justinho">Justinho</option>
-//<option value="Larissa">Larissa</option>
-//<option value="Luciana">Luciana</option>
-//<option value="Vini">Vini</option>
-//<option value="Wian">Wian</option>
+let nomeDoMes = document.getElementById('nomeDoMes')
+
+nomeDoMes.innerHTML = mes[date.getMonth()]
+
 
 let fraseFeriasTrocada = document.querySelectorAll('.fraseFeriasTrocada')
 
@@ -172,3 +166,4 @@ let qtdDeDias = diasFerias.options[diasFerias.selectedIndex].value;
 console.log(qtdDeDias)
 
 }
+
