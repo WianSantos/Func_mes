@@ -12,8 +12,8 @@ let fraseFeriasTrocada = document.querySelectorAll('.fraseFeriasTrocada')
 let inicioFeriasBruno = new Date("May 15")
 let finalFeriasBruno = new Date("May 30")
 
-//let inicioFeriasBelisa = new Date("April 05")
-//let finalFeriasBelisa = new Date("April 30")
+//let inicioFeriasBelisa = new Date("august 22")
+//let finalFeriasBelisa = new Date("september 09")
 
 //let inicioFeriasErick = new Date("January 05")
 //let finalFeriasErick = new Date("April 30")
